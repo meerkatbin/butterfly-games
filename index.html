@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>팔랑팔랑 나비 🦋</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap');
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Noto Sans KR',sans-serif;background:linear-gradient(160deg,#fff0f6,#fff8e8,#f0fff4);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;}
+.wrap{text-align:center;max-width:620px;width:100%;}
+.butterfly{font-size:72px;display:block;margin-bottom:16px;animation:float 3s ease-in-out infinite;}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+h1{font-size:38px;font-weight:900;color:#1a1a1a;margin-bottom:8px;}
+h1 span{color:#E8507A;}
+.sub{font-size:15px;color:#777;margin-bottom:44px;line-height:1.8;}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:32px;}
+.card{background:white;border-radius:22px;padding:36px 20px;text-decoration:none;color:#1a1a1a;transition:all 0.2s;box-shadow:0 4px 24px rgba(0,0,0,0.08);}
+.card:hover{transform:translateY(-6px);box-shadow:0 12px 36px rgba(0,0,0,0.13);}
+.card.wing{border:3px solid #E8507A;}
+.card.palm{border:3px solid #4A9B35;}
+.card .icon{font-size:56px;margin-bottom:16px;display:block;}
+.card .name{font-size:18px;font-weight:900;margin-bottom:10px;}
+.card.wing .name{color:#E8507A;}
+.card.palm .name{color:#4A9B35;}
+.card .how{font-size:13px;color:#555;line-height:1.8;margin-bottom:18px;}
+.card .btn{display:inline-block;padding:11px 30px;border-radius:40px;font-size:14px;font-weight:700;color:white;}
+.card.wing .btn{background:#E8507A;}
+.card.palm .btn{background:#4A9B35;}
+.notice{background:white;border-radius:16px;padding:20px 24px;box-shadow:0 2px 12px rgba(0,0,0,0.06);text-align:left;}
+.notice p{font-size:13px;color:#555;line-height:1.9;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="butterfly">🦋</span>
+  <h1>팔랑팔랑 <span>나비</span></h1>
+  <p class="sub">카메라 앞에서 몸을 움직여 나비를 조종해요!<br>봄꽃을 모아보세요 🌸🌼🌺</p>
+  <div class="cards">
+    <a class="card wing" href="butterfly1_1.html">
+      <span class="icon">🦋</span>
+      <div class="name">날개짓 게임</div>
+      <div class="how">팔을 위아래로 흔들면<br>나비가 올라가요!<br>멈추면 살살 내려와요.</div>
+      <span class="btn">시작하기 ▶</span>
+    </a>
+    <a class="card palm" href="butterfly2_1.html">
+      <span class="icon">🖐</span>
+      <div class="name">손바닥 게임</div>
+      <div class="how">손바닥을 카메라에 보이고<br>손을 올리면 나비가 올라가고<br>내리면 내려와요.</div>
+      <span class="btn">시작하기 ▶</span>
+    </a>
+  </div>
+  <div class="notice">
+    <p>💻 노트북·컴퓨터의 Chrome 브라우저에서 실행해주세요</p>
+    <p>📷 카메라(웹캠)가 있어야 손 인식이 가능해요</p>
+    <p>📺 큰 TV에 연결하면 아이들이 훨씬 신나게 참여해요!</p>
+  </div>
+</div>
+</body>
+</html>
